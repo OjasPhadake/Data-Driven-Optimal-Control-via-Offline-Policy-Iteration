@@ -6,7 +6,7 @@
 
 A MATLAB implementation and numerical validation of a **model-free, off-policy Policy Iteration (PI) algorithm for finite-horizon LQR control of linear time-varying (LTV) discrete-time systems**. The system dynamics are treated as a black box: the controller is learned entirely from a single batch of measured state/input trajectories, with no access to the system matrices at design time.
 
-This repository reproduces Algorithm 1 of:
+This repository reproduces the paper:
 
 > B. Pang, T. Bian, and Z.-P. Jiang, "Data-driven Finite-horizon Optimal Control for Linear Time-varying Discrete-time Systems," in *2018 IEEE Conference on Decision and Control (CDC)*, pp. 861–866, 2018.
 
